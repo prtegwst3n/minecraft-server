@@ -1,0 +1,2 @@
+java -Xms6G -Xmx6G -XX:+UseG1GC -XX:MaxGCPauseMillis=100 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:G1HeapRegionSize=16M -XX:G1ReservePercent=15 -XX:InitiatingHeapOccupancyPercent=20 -jar fabric-server-launch.jar nogui
+pause
